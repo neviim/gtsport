@@ -62,9 +62,8 @@ class MonitoraPasta(object):
                 # Cadastra status de carro do Gran Turismo Sport
                 # em DataBase coletania MongoDB.
                 if arquivo == "gtsCarro.json": # este é um nome especifico.
-                    # jsonArquivo = self.le_json(arquivo)
                     self.gtSport.cadastra_carro(self.le_json(arquivo))
-                # -------------------------------------------
+                # ----------------------------------------------------
 
                 # remomeia o arquivo, idn não sera repetido.
                 idn = 1; arquivoRenomeado = self.novoNome(idn)
@@ -81,7 +80,6 @@ class GranTurismoSport(object):
     """docstring para GranTurismoSport
             Uso:
                 gtSport = GranTurismoSport()
-
     """
     def __init__(self, server='localhost', port=27017):
         super(GranTurismoSport, self).__init__()
@@ -105,9 +103,10 @@ class GranTurismoSport(object):
 
         """
         carro = self.carros.insert_one(carro).inserted_id
-        print (carro)
+        print ("ID: " + str(carro))
 
 
+# inicio da aplicação. 
 if __name__ == "__main__":
     # path dos diretorios origem e destino
     dr1 = "../data/dr1" # origem
