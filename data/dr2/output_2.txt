@@ -1,0 +1,36 @@
+{ "idkey": 0,
+  "carro": {
+    "data": {
+        "modelo": "Golf VII GTI ‘14",
+        "construtor": "Volkswagem",
+        "pais": "Alemanha",
+        "categoria": "N200",
+        "potencia_max_cv": 220,
+        "potencia_max_rpm": 4700,
+        "torque_max_mkgf": 35.6,
+        "torque_max_rpm": 1500,
+        "tracao": "FF",
+        "aspiracao": "T",
+        "cilindrada_cc": 1984,
+        "comprimento_mm": 4275,
+        "largura_mm": 1800,
+        "altura_mm": 1450,
+        "peso_kg": 1390,
+        "ano": 2014
+    },
+    "desempenho": {
+        "velocidade_max": 5.3,
+        "aceleracao": 2.8,
+        "freio": 1.7,
+        "curva": 1.4,
+        "estabilidade": 5.3
+    },
+    "status": {
+        "distancia_percorrida": 251.2,
+        "alteracao": 17,
+        "numero_corridas": 17,
+        "numero_vitorias": 13,
+        "valor_real": 0
+    }
+  }
+}

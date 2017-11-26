@@ -1,0 +1,36 @@
+{ "idkey": 0,
+  "carro": {
+    "data": {
+        "modelo": "Toyota 86 GT ‘15",
+        "construtor": "Toyota",
+        "pais": "Japão",
+        "categoria": "N200",
+        "potencia_max_cv": 201,
+        "potencia_max_rpm": 7000,
+        "torque_max_mkgf": 20.9,
+        "torque_max_rpm": 6500,
+        "tracao": "FR",
+        "aspiracao": "Aspirado",
+        "cilindrada_cc": 1998,
+        "comprimento_mm": 4240,
+        "largura_mm": 1775,
+        "altura_mm": 1285,
+        "peso_kg": 1230,
+        "ano": 2015
+    },
+    "desempenho": {
+        "velocidade_max": 4.8,
+        "aceleracao": 2.9,
+        "freio": 1.5,
+        "curva": 1.3,
+        "estabilidade": 4.8
+    },
+    "status": {
+        "distancia_percorrida": 0,
+        "alteracao": 0,
+        "numero_corridas": 0,
+        "numero_vitorias": 0,
+        "valor_real": 0
+    }
+  }
+}

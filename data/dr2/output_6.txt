@@ -1,0 +1,36 @@
+{ "idkey": 0,
+  "carro": {
+    "data": {
+        "modelo": "Mégane R.S. Trophy ‘11",
+        "construtor": "Renaut Sport",
+        "pais": "França",
+        "categoria": "N300",
+        "potencia_max_cv": 265,
+        "potencia_max_rpm": 5500,
+        "torque_max_mkgf": 36.7,
+        "torque_max_rpm": 3000,
+        "tracao": "FF",
+        "aspiracao": "T",
+        "cilindrada_cc": 1998,
+        "comprimento_mm": 4299,
+        "largura_mm": 1848,
+        "altura_mm": 1435,
+        "peso_kg": 1387,
+        "ano": 2011
+    },
+    "desempenho": {
+        "velocidade_max": 5.1,
+        "aceleracao": 2.9,
+        "freio": 1.7,
+        "curva": 1.4,
+        "estabilidade": 5.3
+    },
+    "status": {
+        "distancia_percorrida": 0,
+        "alteracao": 0,
+        "numero_corridas": 0,
+        "numero_vitorias": 0,
+        "valor_real": 0
+    }
+  }
+}

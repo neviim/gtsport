@@ -1,0 +1,36 @@
+{ "idkey": 0,
+  "carro": {
+    "data": {
+        "modelo": "Honda Civic Type R (FK2) ‘15",
+        "construtor": "Honda",
+        "pais": "Japão",
+        "categoria": "N300",
+        "potencia_max_cv": 310,
+        "potencia_max_rpm": 6500,
+        "torque_max_mkgf": 40.8,
+        "torque_max_rpm": 2500,
+        "tracao": "FF",
+        "aspiracao": "T",
+        "cilindrada_cc": 1995,
+        "comprimento_mm": 4390,
+        "largura_mm": 1880,
+        "altura_mm": 1460,
+        "peso_kg": 1380,
+        "ano": 2015
+    },
+    "desempenho": {
+        "velocidade_max": 6.2,
+        "aceleracao": 2.9,
+        "freio": 1.7,
+        "curva": 1.5,
+        "estabilidade": 5.4
+    },
+    "status": {
+        "distancia_percorrida": 0,
+        "alteracao": 0,
+        "numero_corridas": 0,
+        "numero_vitorias": 0,
+        "valor_real": 0
+    }
+  }
+}

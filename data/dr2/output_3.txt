@@ -1,0 +1,36 @@
+{ "idkey": 0,
+  "carro": {
+    "data": {
+        "modelo": "911 GT3 RS (991) ‘16",
+        "construtor": "Porsche",
+        "pais": "Alemanha",
+        "categoria": "N500",
+        "potencia_max_cv": 498,
+        "potencia_max_rpm": 8100,
+        "torque_max_mkgf": 47.0,
+        "torque_max_rpm": 6000,
+        "tracao": "FR",
+        "aspiracao": "Aspirado",
+        "cilindrada_cc": 3996,
+        "comprimento_mm": 4545,
+        "largura_mm": 1900,
+        "altura_mm": 1290,
+        "peso_kg": 1420,
+        "ano": 2016
+    },
+    "desempenho": {
+        "velocidade_max": 8.6,
+        "aceleracao": 5.2,
+        "freio": 2.4,
+        "curva": 2.3,
+        "estabilidade": 5.3
+    },
+    "status": {
+        "distancia_percorrida": 16,
+        "alteracao": 2,
+        "numero_corridas": 1,
+        "numero_vitorias": 0,
+        "valor_real": 0
+    }
+  }
+}

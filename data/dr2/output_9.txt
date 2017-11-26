@@ -1,0 +1,36 @@
+{ "idkey": 0,
+  "carro": {
+    "data": {
+        "modelo": "Audi TT Cup ‘16",
+        "construtor": "Audi",
+        "pais": "Alemanha",
+        "categoria": "Gr.4",
+        "potencia_max_cv": 340,
+        "potencia_max_rpm": 6500,
+        "torque_max_mkgf": 40.8,
+        "torque_max_rpm": 1500,
+        "tracao": "FF",
+        "aspiracao": "T",
+        "cilindrada_cc": 1984,
+        "comprimento_mm": 4260,
+        "largura_mm": 1994,
+        "altura_mm": 1282,
+        "peso_kg": 1125,
+        "ano": 2016
+    },
+    "desempenho": {
+        "velocidade_max": 5.9,
+        "aceleracao": 3.4,
+        "freio": 3.3,
+        "curva": 3.3,
+        "estabilidade": 7.0
+    },
+    "status": {
+        "distancia_percorrida": 0,
+        "alteracao": 0,
+        "numero_corridas": 0,
+        "numero_vitorias": 0,
+        "valor_real": 0
+    }
+  }
+}

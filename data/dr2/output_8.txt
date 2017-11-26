@@ -1,0 +1,36 @@
+{ "idkey": 0,
+  "carro": {
+    "data": {
+        "modelo": "Concept XR-PHEV Evolution VGT",
+        "construtor": "Mitsubishi",
+        "pais": "Japão",
+        "categoria": "GR.X",
+        "potencia_max_cv": 510,
+        "potencia_max_rpm": 7500,
+        "torque_max_mkgf": 103.5,
+        "torque_max_rpm": 1000,
+        "tracao": "4x4",
+        "aspiracao": "T",
+        "cilindrada_cc": 3000,
+        "comprimento_mm": 4462,
+        "largura_mm": 2262,
+        "altura_mm": 1352,
+        "peso_kg": 1350,
+        "ano": 2014
+    },
+    "desempenho": {
+        "velocidade_max": 7.0,
+        "aceleracao": 8.0,
+        "freio": 4.1,
+        "curva": 4.2,
+        "estabilidade": 7.2
+    },
+    "status": {
+        "distancia_percorrida": 0,
+        "alteracao": 0,
+        "numero_corridas": 0,
+        "numero_vitorias": 0,
+        "valor_real": 0
+    }
+  }
+}

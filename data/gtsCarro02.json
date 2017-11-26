@@ -1,0 +1,36 @@
+{ "idkey": 0,
+  "carro": {
+    "data": {
+        "modelo": "Mustang GT Premium Fastback '15",
+        "construtor": "Ford",
+        "pais": "Estados Unidos",
+        "categoria": "N400",
+        "potencia_max_cv": 441,
+        "potencia_max_rpm": 6500,
+        "torque_max_mkgf": 55.3,
+        "torque_max_rpm": 4500,
+        "tracao": "FR",
+        "aspiracao": "Aspirado",
+        "cilindrada_cc": 0,
+        "comprimento_mm": 4783,
+        "largura_mm": 1915,
+        "altura_mm": 1382,
+        "peso_kg": 1681,
+        "ano": 2015
+    },
+    "desempenho": {
+        "velocidade_max": 6.7,
+        "aceleracao": 3.4,
+        "freio": 2.2,
+        "curva": 1.9,
+        "estabilidade": 4.7
+    },
+    "status": {
+        "distancia_percorrida": 11.5,
+        "alteracao": 2,
+        "numero_corridas": 0,
+        "numero_vitorias": 0,
+        "valor_real": 44310
+    }
+  }
+}

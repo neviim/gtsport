@@ -1,0 +1,36 @@
+{ "idkey": 0,
+  "carro": {
+    "data": {
+        "modelo": "Corvette C7 Gr.3",
+        "construtor": "Chevrolet",
+        "pais": "Estados Unidos",
+        "categoria": "Gr.3",
+        "potencia_max_cv": 559,
+        "potencia_max_rpm": 6000,
+        "torque_max_mkgf": 75.3,
+        "torque_max_rpm": 4.500,
+        "tracao": "FR",
+        "aspiracao": "Aspirado",
+        "cilindrada_cc": 0,
+        "comprimento_mm": 4779,
+        "largura_mm": 2050,
+        "altura_mm": 1161,
+        "peso_kg": 1300,
+        "ano": 0
+    },
+    "desempenho": {
+        "velocidade_max": 6.5,
+        "aceleracao": 5.2,
+        "freio": 3.9,
+        "curva": 3.9,
+        "estabilidade": 6.2
+    },
+    "status": {
+        "distancia_percorrida": 0,
+        "alteracao": 0,
+        "numero_corridas": 0,
+        "numero_vitorias": 0,
+        "valor_real": 0
+    }
+  }
+}

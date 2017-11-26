@@ -1,0 +1,36 @@
+{ "idkey": 0,
+  "carro": {
+    "data": {
+        "modelo": "R18 TDI (Audi Sport Team Joest) ‘11",
+        "construtor": "Audi",
+        "pais": "Alemanha",
+        "categoria": "Gr.1",
+        "potencia_max_cv": 516,
+        "potencia_max_rpm": 5000,
+        "torque_max_mkgf": 95.5,
+        "torque_max_rpm": 3500,
+        "tracao": "MR",
+        "aspiracao": "T",
+        "cilindrada_cc": 3700,
+        "comprimento_mm": 4650,
+        "largura_mm": 2000,
+        "altura_mm": 1030,
+        "peso_kg": 900,
+        "ano": 2011
+    },
+    "desempenho": {
+        "velocidade_max": 8.7,
+        "aceleracao": 6.6,
+        "freio": 6.1,
+        "curva": 6.0,
+        "estabilidade": 6.6
+    },
+    "status": {
+        "distancia_percorrida": 0,
+        "alteracao": 0,
+        "numero_corridas": 0,
+        "numero_vitorias": 0,
+        "valor_real": 0
+    }
+  }
+}

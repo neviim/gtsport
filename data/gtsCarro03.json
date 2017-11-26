@@ -1,0 +1,36 @@
+{ "idkey": 0,
+  "carro": {
+    "data": {
+        "modelo": "Corvette C7 Gr.3 Road Car",
+        "construtor": "Chevrolet",
+        "pais": "Estados Unidos",
+        "categoria": "N500",
+        "potencia_max_cv": 500,
+        "potencia_max_rpm": 6000,
+        "torque_max_mkgf": 67.4,
+        "torque_max_rpm": 4500,
+        "tracao": "FR",
+        "aspiracao": "Aspirado",
+        "cilindrada_cc": 0,
+        "comprimento_mm": 4570,
+        "largura_mm": 2050,
+        "altura_mm": 1161,
+        "peso_kg": 1480,
+        "ano": 0
+    },
+    "desempenho": {
+        "velocidade_max": 6.2,
+        "aceleracao": 4.3,
+        "freio": 2.4,
+        "curva": 2.4,
+        "estabilidade": 5.3
+    },
+    "status": {
+        "distancia_percorrida": 0,
+        "alteracao": 0,
+        "numero_corridas": 0,
+        "numero_vitorias": 0,
+        "valor_real": 0
+    }
+  }
+}
