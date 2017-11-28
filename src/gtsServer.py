@@ -11,7 +11,7 @@ import json
 import time
 import os
 
-
+# Kernel.
 class MonitoraPasta(object):
     """docstring para MonitoraPasta.
         Parametros:
@@ -33,14 +33,18 @@ class MonitoraPasta(object):
         # funcao lambda idn
         self.novoNome = lambda idn: self.drDestino+"/"+self.nome+str(idn)+self.extensao
 
-        # instancia a classe GranTurismoSport, permite gravar em mongoDB.
+        # adiciona chamadas do novos modulos.
         self.gtSport = GranTurismoSport()
 
     def le_json(self, arquivo):
         """ le um arquivo json e arquiva em uma collection carros
+                    Parametros:
+                        arquivo <= um arquivo json
+
                     Uso:
                         gtSport = GranTurismoSport()
-                        arquivoJsonLido = gtSport.le_json(path, arquivo)
+
+                        arquivoJsonLido = gtSport.le_json(arquivo)
 
                     Retorna:
                         O arquivo json que foi lido.
@@ -53,6 +57,9 @@ class MonitoraPasta(object):
         """ havendo arquivo na pasta Origem, ele sera processado.
                 Uso:
                     monitoraPasta.tem_arquivo()
+
+                Retorna:
+                    True
         """
         listArquivos = os.listdir(self.drOrigem)
 
@@ -75,9 +82,10 @@ class MonitoraPasta(object):
                 # o arquivo é novido ao drDestino.
                 shutil.move(arquivoOriguem, arquivoRenomeado)
                 print("Aquivo: "+arquivo+" processado.")
-        return
+        return True
 
 
+# Modulos do kernel.
 class GranTurismoSport(object):
     """docstring para GranTurismoSport
             Uso:
@@ -152,7 +160,7 @@ class GranTurismoSport(object):
         return False
 
 
-# inicio da aplicação.
+# loop do kernel.
 if __name__ == "__main__":
     # path dos diretorios origem e destino
     dr1 = "../data/dr1" # origem
