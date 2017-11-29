@@ -64,6 +64,7 @@ if __name__ == '__main__':
 
     print("# ------- ")
     print("Resultado:")
+    print(" ")
     print(resultado)
     print("...")
     print("Entrada v1 .....: "+  str(v1))
