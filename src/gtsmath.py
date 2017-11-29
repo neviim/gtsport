@@ -2,6 +2,8 @@
 # Neviim - 2017
 # V-0.1.5
 
+__version__ = 'v-0.1.5'
+
 import numpy as np
 
 class GtsCalculos(object):
@@ -62,12 +64,17 @@ if __name__ == '__main__':
 
     resultado = gtsCalculos.distancia_euclidiana(v1, v2)
 
-    print("# ------- ")
+    print(" ")
+    print("# ------------- ")
+    print("Virsão: "+__version__+"\n")
     print("Resultado:")
     print(" ")
     print(resultado)
-    print("...")
+    print(" ")
+    print("Saida:")
+    print(" ")
     print("Entrada v1 .....: "+  str(v1))
     print("Escolha v2 .....: "+  str(v2[resultado.index(np.min(resultado))]))
     print("Dist. Euclidiana:  "+ str(np.min(resultado)))
+    print("# ------------------------------- ")
     # resultado esperado 4.47
