@@ -52,13 +52,21 @@ if __name__ == '__main__':
     gtsCalculos = GtsCalculos()
 
     # Parametro da entrada v1
-    v1 =  [3.7, 4.8, 5.3]
+    v1 =  [3.7, 4.8, 2.3]
     # Comparados com parametros das entradas v2
-    v2 = [[5.7, 4.2, 3.7],
-          [2.7, 3.2, 0.2],
-          [3.7, 0.2, 1.4],
-          [0.7, 1.4, 3.6]
+    v2 = [[3.7, 6.2, 4.7],
+          [2.7, 3.3, 0.2],
+          [3.7, 5.2, 1.4],
+          [4.6, 2.4, 3.4]
          ]
 
-    print(gtsCalculos.distancia_euclidiana(v1, v2))
+    resultado = gtsCalculos.distancia_euclidiana(v1, v2)
+
+    print("# ------- ")
+    print("Resultado:")
+    print(resultado)
+    print("...")
+    print("Entrada v1 .....: "+  str(v1))
+    print("Escolha v2 .....: "+  str(v2[resultado.index(np.min(resultado))]))
+    print("Dist. Euclidiana:  "+ str(np.min(resultado)))
     # resultado esperado 4.47
