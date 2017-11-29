@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # Neviim - 2017
-# V-0.1.0
+# V-0.1.5
 
 import numpy as np
 
