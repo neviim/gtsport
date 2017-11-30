@@ -108,6 +108,7 @@ class GranTurismoSport(object):
         # Colesão de carros
         self.carros = db.carros
 
+
     def gera_md5(self, string1, string2):
         """ recebe duas string e retorna um codigo unico MD5.
                 - Parametro:
@@ -130,6 +131,7 @@ class GranTurismoSport(object):
         codigo  = string2+"neviim"+apwd
         idcarro = hashlib.md5(codigo.encode())
         return idcarro.hexdigest()
+
 
     def cadastra_carro(self, gts):
         """ cadastra o os dados pasado por parametro no dicionario carro

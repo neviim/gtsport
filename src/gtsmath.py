@@ -4,10 +4,17 @@
 
 __version__ = 'v-0.1.5'
 
+from pymongo import MongoClient
 import numpy as np
+import pymongo
 
 class GtsCalculos(object):
-    """docstring for GtsCalculos."""
+    """docstring da classe GtsCalculos.
+        - Uso:
+            from gtsmath import GtsCalculos
+
+            gtsCalculos = GtsCalculos()
+    """
     def __init__(self, idkey=0):
         super(GtsCalculos, self).__init__()
         self.idkey = idkey
@@ -47,6 +54,17 @@ class GtsCalculos(object):
             resultado.append(dist_eucl)
 
         return resultado
+
+class MongoConecta(object):
+    """docstring for MongoConecta."""
+    def __init__(self, server='localhost', port=27017):
+        super(MongoConecta, self).__init__()
+        self.server = server
+        self.port = port
+
+        clientdb = MongoClient(server, port)
+        db = clientdb.GranTurismoSport
+        #db.carros.create_index('idkey', unique=True)
 
 
 if __name__ == '__main__':
