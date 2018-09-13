@@ -22,3 +22,6 @@ Gran turismo sport
 Dependência:
 
     $ pip3 install pymongo
+    $ pip3 install lxml
+    $ pip3 install bs4
+    $ pip3 install pandas
